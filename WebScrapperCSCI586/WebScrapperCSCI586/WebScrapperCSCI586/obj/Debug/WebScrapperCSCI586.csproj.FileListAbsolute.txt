@@ -1,0 +1,15 @@
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\WebScrapperCSCI586.exe.config
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\WebScrapperCSCI586.exe
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\WebScrapperCSCI586.pdb
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\EntityFramework.dll
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\HtmlAgilityPack.dll
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\IronWebScraper.dll
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\EntityFramework.xml
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\HtmlAgilityPack.pdb
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\HtmlAgilityPack.xml
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\bin\Debug\IronWebScraper.xml
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\obj\Debug\WebScrapperCSCI586.exe
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\obj\Debug\WebScrapperCSCI586.pdb
+D:\Documents (Sandisk SSD 1TB)\Visual Studio 2015\Projects\WebScrapperCSCI586\WebScrapperCSCI586\obj\Debug\WebScrapperCSCI586.csprojResolveAssemblyReference.cache

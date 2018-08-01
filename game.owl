@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11"
+     xml:base="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_adultRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_adultRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_genre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_publisher -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_publisher">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_release -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_release">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_review -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_review">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_wiki -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#game_wiki">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#idn_userscore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#idn_userscore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#ign_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#ign_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_budget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_genre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_release -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_release">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_wiki -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#movie_wiki">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Aion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Aion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role-Playing Massively Multiplayer Online Fantasy Fantasy Massively Multiplayer</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCSOFT</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sep. 22, 2009</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fair</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aion</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/aion</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.3</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160000000</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[{&quot;id&quot;: 28, &quot;name&quot;: &quot;Action&quot;}, {&quot;id&quot;: 53, &quot;name&quot;: &quot;Thriller&quot;}, {&quot;id&quot;: 878, &quot;name&quot;: &quot;Science Fiction&quot;}, {&quot;id&quot;: 9648, &quot;name&quot;: &quot;Mystery&quot;}, {&quot;id&quot;: 12, &quot;name&quot;: &quot;Adventure&quot;}]</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13752</untitled-ontology-11:movie_rating>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-07-14</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aion</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inception</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.5</untitled-ontology-11:movie_wiki>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://inceptionmovie.warnerbros.com/</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#AliceMadnessReturns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#AliceMadnessReturns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Adventure Adventure General Horror Horror Survival</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronic Arts</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun. 14, 2011</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice Madness Returns</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/alice-madness-returns</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.11</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">270000000</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[{&quot;id&quot;: 12, &quot;name&quot;: &quot;Adventure&quot;}, {&quot;id&quot;: 14, &quot;name&quot;: &quot;Fantasy&quot;}, {&quot;id&quot;: 28, &quot;name&quot;: &quot;Action&quot;}, {&quot;id&quot;: 878, &quot;name&quot;: &quot;Science Fiction&quot;}]</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1400</untitled-ontology-11:movie_rating>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006-06-28</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.8</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice Madness Returns</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Superman Returns</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</untitled-ontology-11:movie_wiki>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.superman.com</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#F12012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#F12012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driving Racing Simulation Formula One Formula One Automobile</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Codemasters</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sep. 17, 2012</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F1 2012</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/f1-2012</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.9</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200000000</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.1</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[{&quot;id&quot;: 28, &quot;name&quot;: &quot;Action&quot;}, {&quot;id&quot;: 12, &quot;name&quot;: &quot;Adventure&quot;}, {&quot;id&quot;: 878, &quot;name&quot;: &quot;Science Fiction&quot;}]</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4903</untitled-ontology-11:movie_rating>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-10-10</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F1 2012</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:movie_wiki>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sonypictures.com/movies/2012</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#GuildWars2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#GuildWars2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Role-Playing Massively Multiplayer Online Massively Multiplayer Fantasy Fantasy</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCSOFT</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aug. 28, 2012</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Superb</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guild Wars 2</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/guild-wars-2</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.8</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.9</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guild Wars 2</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#HaloWars2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#HaloWars2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy Real-Time General</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft Game Studios</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feb. 17, 2017</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fair</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halo Wars 2</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/halo-wars-2</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.1</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.8</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.9</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halo Wars 2</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#MadWorld -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#MadWorld">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Beat-&apos;Em-Up 3D Beat-&apos;Em-Up</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sega</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mar. 10, 2009</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MadWorld</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/madworld</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.5</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.6</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MadWorld</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.5</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#PrinceOfPersia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#PrinceOfPersia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Adventure Fantasy General Fantasy</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubisoft</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dec. 2, 2008</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prince of Persia</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/prince-of-persia</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.1</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.4</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prince of Persia</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#PrinceOfPersiaTheForgottenSands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#PrinceOfPersiaTheForgottenSands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Adventure Fantasy General Fantasy</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubisoft</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May. 17, 2010</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prince of Persia The Forgotten Sands</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/prince-of-persia-the-forgotten-sands</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.7</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.5</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.1</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prince of Persia The Forgotten Sands</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.5</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#TheDarkness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#TheDarkness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Games"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mehulviby/ontologies/2017/10/untitled-ontology-11#Movies"/>
+        <untitled-ontology-11:game_adultRating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</untitled-ontology-11:game_adultRating>
+        <untitled-ontology-11:game_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action Shooter First-Person Modern Shooter Modern Arcade</untitled-ontology-11:game_genre>
+        <untitled-ontology-11:game_publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2K Games</untitled-ontology-11:game_publisher>
+        <untitled-ontology-11:game_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun. 25, 2007</untitled-ontology-11:game_release>
+        <untitled-ontology-11:game_review rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great</untitled-ontology-11:game_review>
+        <untitled-ontology-11:game_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Darkness</untitled-ontology-11:game_title>
+        <untitled-ontology-11:game_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ign.com/wikis/the-darkness</untitled-ontology-11:game_wiki>
+        <untitled-ontology-11:idn_userscore rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</untitled-ontology-11:idn_userscore>
+        <untitled-ontology-11:ign_score rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:ign_score>
+        <untitled-ontology-11:movie_budget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</untitled-ontology-11:movie_budget>
+        <untitled-ontology-11:movie_genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.7</untitled-ontology-11:movie_genre>
+        <untitled-ontology-11:movie_release rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.2</untitled-ontology-11:movie_release>
+        <untitled-ontology-11:movie_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Darkness</untitled-ontology-11:movie_title>
+        <untitled-ontology-11:movie_wiki rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8.5</untitled-ontology-11:movie_wiki>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

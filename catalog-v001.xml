@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1511241027674" name="http://protege.stanford.edu/ontologies/groceries/" uri="groceries.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1511241027674" name="http://www.usc.org/dbi/cellphone" uri="phones-20171119T234644Z-001/phones/owl%20and%20jason%20along%20with%20weight%20os%20and%20urls/cellPhone.owl"/>
+    </group>
+</catalog>
